@@ -1,5 +1,5 @@
 import * as React from 'react'
-import '../styles.less'
+// import '../styles.less'
 import { Button } from "antd";
 
 const DataTable: React.FC = () => (
