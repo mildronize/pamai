@@ -11,7 +11,8 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "start": "rollup -c -w"
+    "start": "rollup -c -w",
+    "link": "npm link && cd website/ && npm link pamai"
   },
   "peerDependencies": {
     "react": ">= 16.8.0 < 2",
@@ -40,6 +41,6 @@
   ],
   "dependencies": {
     "@types/antd": "^1.0.0",
-    "antd": "^4.7.0"
+    "antd": "^4.7.2"
   }
 }
